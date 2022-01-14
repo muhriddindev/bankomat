@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 
 int main() {
     string pass="1010",input,history;
@@ -20,15 +18,16 @@ int main() {
 
 
 
+
     if(checked){
-        cout << "Welcome\n";
+        cout << "Welcome \n";
+
         while (true) {
             cout<< "\n1 show balance  2 deposite\n"
                    "3 withdraw  4 change password\n"
                    "5 exit\n";
 
             cin >> option;
-
 
             switch (option) {
                 case 1:
